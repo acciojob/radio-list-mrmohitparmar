@@ -1,3 +1,10 @@
+/* Red color for radio buttons with class input */
 .input {
-  accent-color: red;
+ color: red; /* modern browsers support accent-color for radio */
+}
+
+/* Optional: spacing */
+form label {
+  display: block;
+  margin: 5px 0;
 }
