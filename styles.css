@@ -1,1 +1,10 @@
-/*  your css code here. If applicable */
+/* Even-positioned radio buttons (2,4,6...) red */
+form label:nth-child(even) input {
+  accent-color: red;
+}
+
+/* Optional spacing */
+form label {
+  display: block;
+  margin: 5px 0;
+}
